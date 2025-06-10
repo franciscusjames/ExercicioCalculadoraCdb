@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{80F63515-02E4-4719-94B1-359BEDEAB670}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{81C22013-995F-41EB-8524-CC6D0777A552}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{DDA695FF-7B2E-48C8-85D4-E117FD7C0583}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{6B732A98-8114-4069-8A63-3DBE0DD46F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraCdbApp.Hosts.Http", "CalculadoraCdbApp.Hosts.Http.csproj", "{0782A48D-4598-C270-AF23-1FE45C89A5CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoCdbApp.Apis", "..\CalculoCdbApp.Apis\CalculoCdbApp.Apis.csproj", "{ED0F56BC-31AE-4D8A-2689-06620AE81140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoCdbApp.UnitTests", "..\CalculoCdbApp.UnitTest\CalculoCdbApp.UnitTests.csproj", "{5527F600-62ED-EE16-3ACE-55FEA760CE93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0782A48D-4598-C270-AF23-1FE45C89A5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0782A48D-4598-C270-AF23-1FE45C89A5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0782A48D-4598-C270-AF23-1FE45C89A5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0782A48D-4598-C270-AF23-1FE45C89A5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0F56BC-31AE-4D8A-2689-06620AE81140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0F56BC-31AE-4D8A-2689-06620AE81140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0F56BC-31AE-4D8A-2689-06620AE81140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0F56BC-31AE-4D8A-2689-06620AE81140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5527F600-62ED-EE16-3ACE-55FEA760CE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5527F600-62ED-EE16-3ACE-55FEA760CE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5527F600-62ED-EE16-3ACE-55FEA760CE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5527F600-62ED-EE16-3ACE-55FEA760CE93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDA695FF-7B2E-48C8-85D4-E117FD7C0583} = {80F63515-02E4-4719-94B1-359BEDEAB670}
+		{6B732A98-8114-4069-8A63-3DBE0DD46F89} = {80F63515-02E4-4719-94B1-359BEDEAB670}
+		{0782A48D-4598-C270-AF23-1FE45C89A5CE} = {DDA695FF-7B2E-48C8-85D4-E117FD7C0583}
+		{ED0F56BC-31AE-4D8A-2689-06620AE81140} = {6B732A98-8114-4069-8A63-3DBE0DD46F89}
+		{5527F600-62ED-EE16-3ACE-55FEA760CE93} = {81C22013-995F-41EB-8524-CC6D0777A552}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {775382EF-6FB4-4061-9CD2-C44BAEF7D989}
+	EndGlobalSection
+EndGlobal
